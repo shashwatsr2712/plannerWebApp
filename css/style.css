@@ -1,8 +1,8 @@
 .done-true{
 	text-decoration:line-through;
-	color:gray;}
+	color:#D3D3D3;}
 .done-false{
-	color:blue;}
+	color:#6495ED;}
 #banner{
 	text-align:center;
 	font-family:roboto;
@@ -10,7 +10,7 @@
 	color:#FFFF00;
 	text-shadow:2px 2px #0000FF;}
 #content{
-	font-family:timesnewroman;
+	font-family:times;
 	font-style:italic;}
 #head{
 	font-family:courier;}
