@@ -1,0 +1,25 @@
+.done-true{
+	text-decoration:line-through;
+	color:gray;}
+.done-false{
+	color:blue;}
+#banner{
+	text-align:center;
+	font-family:roboto;
+	font-style:bold;
+	color:#FFFF00;
+	text-shadow:2px 2px #0000FF;}
+#content{
+	font-family:timesnewroman;
+	font-style:italic;}
+#head{
+	font-family:courier;}
+#check{
+	transform:scale(1.5);}
+#bg-img{
+	background:url('https://dailyfamily.ng/wp-content/uploads/2018/05/3-Important-Reasons-You-Should-Plan-Your-Day.dailyfamily.ng_.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0.5;}
+#foot{
+	width:100%;padding:15px 0px;margin-top:200px;background-color:#D8D7CD;}
