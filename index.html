@@ -4,11 +4,10 @@
 	<title>TODO APP</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<script>alert("Suggestions/Feedbacks for improvements are most welcome! Click on The Logo or 'About' in Navigation Bar for details.");</script>
+	<script>alert("Suggestions/Feedbacks for improvements are most welcome! Click on The Logo or 'About' in Menu for details.");</script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 
 <body id="control" ng-controller="myController">
@@ -63,7 +62,7 @@
 	
 	<!--Banner with count of tasks in list-->
 	<div class="jumbotron" id="bg-img"><br/>
-		<h1 id="banner">Tasks : {{todos.length}}</h1>
+		<div id="banner"><h1 id="banner1">Pending Tasks : {{pendingCount}}</h1><h2 id="banner2">Total : {{todos.length}}</h2></div>
 	</div>
 	
 	<!--Table of tasks-->
@@ -78,8 +77,8 @@
 				</thead>
 				<tbody>
 					<tr ng-repeat="todo in todos">
-						<td class="done-{{todo.done}}"><h4 id="content">{{todo.text}}</h4></td>
-						<td style="text-align:center;vertical-align:middle;"><input type="checkbox" ng-model="todo.done" id="check"></td>
+						<td class="done-{{todo.done}}"><h3 id="content">{{todo.text}}</h3></td>
+						<td style="text-align:center;vertical-align:middle;"><input type="checkbox" ng-model="todo.done" id="check" ng-change="countPending()"></td>
 					</tr>
 				</tbody>
 			</table>
@@ -102,6 +101,6 @@
 		</div>
 	</footer>
 	
-<script type="text/javascript" src="javascript/dynamic.js"></script>
+<script type="text/javascript" src="dynamic.js"></script>
 </body>
 </html>
