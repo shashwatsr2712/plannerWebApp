@@ -5,10 +5,19 @@
 	color:#6495ED;}
 #banner{
 	text-align:center;
+	}
+#banner1{
 	font-family:roboto;
 	font-style:bold;
 	color:#FFFF00;
-	text-shadow:2px 2px #0000FF;}
+	text-shadow:2px 2px #0000FF;
+}
+#banner2{
+	font-family:roboto;
+	font-style:italic;
+	color:#FFFF00;
+	text-shadow:2px 2px #0000FF;
+}
 #content{
 	font-family:times;
 	font-style:italic;}
