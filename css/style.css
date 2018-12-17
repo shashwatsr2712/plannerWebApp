@@ -7,13 +7,13 @@
 	text-align:center;
 	}
 #banner1{
-	font-family:roboto;
+	font-family:droid;
 	font-style:bold;
 	color:#FFFF00;
 	text-shadow:2px 2px #0000FF;
 }
 #banner2{
-	font-family:roboto;
+	font-family:droid;
 	font-style:italic;
 	color:#FFFF00;
 	text-shadow:2px 2px #0000FF;
@@ -26,7 +26,7 @@
 #check{
 	transform:scale(1.5);}
 #bg-img{
-	background:url('https://dailyfamily.ng/wp-content/uploads/2018/05/3-Important-Reasons-You-Should-Plan-Your-Day.dailyfamily.ng_.jpg');
+	background:url(https://dailyfamily.ng/wp-content/uploads/2018/05/3-Important-Reasons-You-Should-Plan-Your-Day.dailyfamily.ng_.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	opacity:0.5;}
