@@ -1,7 +1,6 @@
 # plannerWebApp
 * A ToDo Web Application Project.
-* This is a web application project written using AngularJS, BootStrap frameworks and AJAX.
-* It allows user to create and manage a ToDo list.
+* This is a web application project written using AngularJS, BootStrap frameworks and AJAX, which allows user to create and manage a ToDo list.
 * Tasks can be easily added to a list on the home page and the checkbox corresponding to each task denote the completion status (Done/Pending).
 * The count of total as well as pending tasks is displayed in the top banner in real-time.
 * After login/signup, user can save and retrieve the plans to and from the database seamlessly.
